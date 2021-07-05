@@ -67,7 +67,7 @@ auth:
   ## RabbitMQ application password
   ## ref: https://github.com/bitnami/bitnami-docker-rabbitmq#environment-variables
   ##
-  password: coloseo@123
+  password: coloseo123
   # existingPasswordSecret: name-of-existing-secret
 
   ## Erlang cookie to determine whether different nodes are allowed to communicate with each other
