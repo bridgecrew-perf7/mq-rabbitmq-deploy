@@ -73,7 +73,7 @@ auth:
   ## Erlang cookie to determine whether different nodes are allowed to communicate with each other
   ## ref: https://github.com/bitnami/bitnami-docker-rabbitmq#environment-variables
   ##
-  # erlangCookie:
+  erlangCookie: ebXyLgTnqZB3WRArBHj0rio2OM0ZA0cU
   # existingErlangSecret: name-of-existing-secret
 
   ## Enable encryption to rabbitmq
