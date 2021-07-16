@@ -467,15 +467,15 @@ resources:
 ## ref: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes
 ##
 livenessProbe:
-  enabled: false
-  initialDelaySeconds: 300
+  enabled: true
+  initialDelaySeconds: 600
   timeoutSeconds: 20
   periodSeconds: 30
   failureThreshold: 6
   successThreshold: 1
 readinessProbe:
-  enabled: false
-  initialDelaySeconds: 10
+  enabled: true
+  initialDelaySeconds: 300
   timeoutSeconds: 20
   periodSeconds: 30
   failureThreshold: 3
