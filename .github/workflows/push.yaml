@@ -29,8 +29,6 @@ jobs:
 
       - name: Install helm
         uses: azure/setup-helm@v1
-        with:
-          version: v3.4.0
 
       - name: Install rabbitmq
         run: helm upgrade --install --namespace mq -f values-staging.yaml mq-message ./rabbitmq
