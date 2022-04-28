@@ -461,7 +461,7 @@ resources:
     memory: 4Gi
   requests:
     cpu: 500m
-    memory: 1Gi
+    memory: 2Gi
 
 ## RabbitMQ containers' liveness and readiness probes.
 ## ref: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes
